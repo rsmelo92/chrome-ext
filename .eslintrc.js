@@ -6,7 +6,6 @@ module.exports = {
   extends: [
     'airbnb',
     'airbnb-typescript',
-    'plugin:react/recommended',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -17,16 +16,7 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: [
-    'react',
     '@typescript-eslint',
   ],
-  rules: {
-    'react/jsx-filename-extension': [2, { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
-    'react/function-component-definition': [
-      2,
-      {
-        namedComponents: 'function-declaration',
-      },
-    ],
-  },
+  rules: {},
 };

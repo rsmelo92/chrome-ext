@@ -12,6 +12,6 @@
   },
   "content_scripts": [{
     "matches": ["https://*.linkedin.com/in/*"],
-    "js": ["src/content_script.js"]
+    "js": ["utils/index.js", "content_script.js"]
   }]
 }
