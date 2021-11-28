@@ -3,6 +3,10 @@
   "name": "ext",
   "version": "1.0",
   "description": "LinkedIn ext",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
   "icons": {
     "192": "assets/logo-2x.png"
   },

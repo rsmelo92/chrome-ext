@@ -1,3 +1,9 @@
-document.body.style.border = '5px solid red';
+const mainContent = document.getElementById('main');
+const profileSection = mainContent?.firstElementChild;
 
-export {};
+const root = document.createElement('div');
+root.setAttribute('id', 'root');
+
+profileSection?.appendChild(root);
+
+alert('Hello, world!');

@@ -576,6 +576,13 @@ eslint-config-airbnb-base@^15.0.0:
     object.entries "^1.1.5"
     semver "^6.3.0"
 
+eslint-config-airbnb-typescript@^16.0.0:
+  version "16.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-airbnb-typescript/-/eslint-config-airbnb-typescript-16.0.0.tgz#75007e27d5a7fb75530721f48197817c1d2ad4d1"
+  integrity sha512-qDOyD0YYZo5Us1YvOnWig2Ly/+IlQKmMZpnqKnJgVtHdK8SkjaSyVBHKbD41dEaQxk8vRVGBC94PuR2ceSwbLQ==
+  dependencies:
+    eslint-config-airbnb-base "^15.0.0"
+
 eslint-config-airbnb@^19.0.1:
   version "19.0.1"
   resolved "https://registry.yarnpkg.com/eslint-config-airbnb/-/eslint-config-airbnb-19.0.1.tgz#c4e39150a22571a78b27f701fd40b67addf21d2a"
