@@ -17,7 +17,5 @@ if (mainContent && mainContent.firstElementChild) {
         const [user] = results;
         createCard(rootEl, user);
       });
-
   }
-
 }
