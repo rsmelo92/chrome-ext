@@ -15,7 +15,7 @@
   "scripts": {
     "build": "yarn clean && tsc && yarn copy",
     "clean": "rm -rf dist",
-    "copy": "cp -r src/manifest.json ./src/assets ./dist",
+    "copy": "cp -r manifest.json ./src/assets ./dist",
     "lint": "eslint"
   },
   "devDependencies": {
