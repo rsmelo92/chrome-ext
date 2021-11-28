@@ -1,0 +1,51 @@
+:root {
+  --font-family-main: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Fira Sans,Ubuntu,Oxygen,Oxygen Sans,Cantarell,Droid Sans,Apple Color Emoji,Segoe UI Emoji,Segoe UI Emoji,Segoe UI Symbol,Lucida Grande,Helvetica,Arial,sans-serif;
+}
+
+:root {
+  --font-line-height-small: 1.30;
+  --font-line-height-medium: 1.5;
+  --font-line-height-large: 1.70;
+  --font-line-height-reset: initial;
+}
+
+:root {
+  --font-size-xxsmall: 0.5rem;
+  --font-size-xsmall: 0.625rem;
+  --font-size-small: 0.875rem;
+  --font-size-medium: 1rem;
+  --font-size-large: 1.125rem;
+  --font-size-xlarge: 1.5rem;
+  --font-size-xxlarge: 2rem;
+  --font-size-xxxlarge: 3rem;
+  --font-size-ultra: 4.25rem;
+}
+
+:root {
+  --color-theme-primary-00: rgba(152, 216, 244, 0.25);
+  --color-theme-primary-01: rgba(186, 229, 248, 0.5);
+  --color-theme-primary-02: rgba(221, 242, 251, 0.75);
+  --color-theme-primary-03: rgba(101, 144, 163, 0.5);
+  --color-theme-primary-04: rgba(51, 72, 81, 0.75);
+  --color-theme-secondary-00: rgba(0, 235, 255, 0.25);
+  --color-theme-secondary-01: rgba(85, 242, 255, 0.5);
+  --color-theme-secondary-02: rgba(170, 248, 255, 0.75);
+  --color-theme-secondary-03: rgba(0, 157, 170, 0.5);
+  --color-theme-secondary-04: rgba(0, 78, 85, 0.75);
+}
+
+:root {
+  --color-font-primary: #4a4a4a;
+  --color-font-secondary: white;
+  --color-background-idle: #f3f6f8;
+}
+
+:root {
+  --font-weight-normal: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+}
+
+:root {
+  --linkedin-primary-color: #0a66c2;
+}

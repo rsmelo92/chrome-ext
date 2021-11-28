@@ -1,0 +1,30 @@
+body {
+  font-family: var(--font-family-main);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  background-color: var(--color-background-idle);
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-section {
+  min-height: 400px;
+  min-width: 300px;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  color: var(--color-font-primary);
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+}
+
