@@ -35,7 +35,17 @@
 }
 
 :root {
+  --color-font-primary: #4a4a4a;
+  --color-font-secondary: white;
+  --color-background-idle: #f3f6f8;
+}
+
+:root {
   --font-weight-normal: 400;
   --font-weight-semibold: 600;
   --font-weight-bold: 700;
+}
+
+:root {
+  --linkedin-primary-color: #0a66c2;
 }
