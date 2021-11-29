@@ -1,5 +1,6 @@
+"use strict";
 var API_URL = 'https://randomuser.me/api/';
-export function triggerInjection() {
+function triggerInjection() {
     var mainContent = document.getElementById('main');
     if (mainContent && mainContent.firstElementChild) {
         var root = document.createElement('div');
