@@ -1,10 +1,12 @@
 const API_URL = 'https://randomuser.me/api/';
 
 function triggerInjection() {
+  const isInProfileView = document.getElementById('profile-content');
+  const alreadyHasCard = document.getElementById('injected-card');
   const mainContent = document.getElementById('main');
-  if (mainContent && mainContent.firstElementChild) {
+  if (isInProfileView && !alreadyHasCard && mainContent && mainContent.firstElementChild) {
     const root = document.createElement('div');
-    root.setAttribute('id', 'root')
+    root.setAttribute('id', 'root');
     
     mainContent.insertBefore(root, mainContent.firstElementChild.nextSibling);
     

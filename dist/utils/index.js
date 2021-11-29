@@ -64,6 +64,7 @@ function CardContent(content) {
 function Card() {
     var node = document.createElement('div');
     node.classList.add('artdeco-card', 'break-words', 'mt4', 'pb3');
+    node.setAttribute('id', 'injected-card');
     return node;
 }
 function createCard(element, content) {

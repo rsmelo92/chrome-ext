@@ -96,6 +96,7 @@ function CardContent(content: object) {
 function Card() {
   const node = document.createElement('div');
   node.classList.add('artdeco-card', 'break-words', 'mt4', 'pb3');
+  node.setAttribute('id', 'injected-card');
 
   return node
 }

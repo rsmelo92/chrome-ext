@@ -1,8 +1,10 @@
 "use strict";
 var API_URL = 'https://randomuser.me/api/';
 function triggerInjection() {
+    var isInProfileView = document.getElementById('profile-content');
+    var alreadyHasCard = document.getElementById('injected-card');
     var mainContent = document.getElementById('main');
-    if (mainContent && mainContent.firstElementChild) {
+    if (isInProfileView && !alreadyHasCard && mainContent && mainContent.firstElementChild) {
         var root = document.createElement('div');
         root.setAttribute('id', 'root');
         mainContent.insertBefore(root, mainContent.firstElementChild.nextSibling);
