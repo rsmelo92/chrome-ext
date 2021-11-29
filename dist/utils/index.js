@@ -63,7 +63,7 @@ function CardContent(content) {
 }
 function Card() {
     var node = document.createElement('div');
-    node.classList.add('ext-card', 'artdeco-card', 'break-words', 'mt4', 'pb3');
+    node.classList.add('artdeco-card', 'break-words', 'mt4', 'pb3');
     return node;
 }
 function createCard(element, content) {
